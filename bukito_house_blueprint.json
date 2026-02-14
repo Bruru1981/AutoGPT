@@ -1,0 +1,195 @@
+{
+  "house_name": "Bahay Bukito",
+  "style": "Modern Bahay Kubo (Bukito)",
+  "description": "A 2-bedroom house inspired by the traditional Filipino Bahay Kubo stilt house, blending indigenous design principles with modern livability. Features raised flooring, steep thatched-style roofing, open-plan living, and natural cross-ventilation throughout.",
+  "architectural_style": {
+    "origin": "Philippines",
+    "tradition": "Bahay Kubo / Nipa Hut",
+    "era": "Contemporary adaptation of pre-colonial Filipino vernacular architecture",
+    "philosophy": "Harmony with tropical environment, community-oriented living, sustainable materials"
+  },
+  "site": {
+    "orientation": "Long axis east-west to minimize solar heat gain on walls",
+    "elevation_above_ground_m": 1.5,
+    "foundation": "Concrete stilts with wooden post caps",
+    "lot_size_sqm": 200,
+    "setbacks": {
+      "front_m": 3,
+      "rear_m": 2,
+      "sides_m": 1.5
+    }
+  },
+  "dimensions": {
+    "total_floor_area_sqm": 85,
+    "width_m": 8.5,
+    "length_m": 10,
+    "roof_peak_height_m": 6.5,
+    "floor_height_above_ground_m": 1.5
+  },
+  "materials": {
+    "structural_frame": "Treated bamboo poles and Philippine hardwood (Molave) posts",
+    "walls": "Woven bamboo slat panels (amakan) with sliding capiz shell windows",
+    "flooring": "Split bamboo slats over hardwood joists",
+    "roof": "Nipa palm thatch layered over bamboo purlins, with concealed waterproof membrane",
+    "stairs": "Hardwood with bamboo railings",
+    "foundation_stilts": "Reinforced concrete piers with hardwood post connections"
+  },
+  "floor_plan": {
+    "rooms": [
+      {
+        "name": "Covered Porch (Batalan)",
+        "area_sqm": 10,
+        "dimensions": "8.5m x 1.2m",
+        "location": "Front (south-facing)",
+        "description": "Traditional wide porch with bamboo bench seating, the social heart of the home. Features a bamboo railing and overhanging roof eave for rain protection.",
+        "features": ["Bamboo bench (bangko)", "Hanging plant hooks", "Shoe storage below"]
+      },
+      {
+        "name": "Living & Dining Area (Sala)",
+        "area_sqm": 25,
+        "dimensions": "5m x 5m",
+        "location": "Central",
+        "description": "Open-plan communal space with high vaulted ceiling following the steep roof line. Woven bamboo walls with large capiz shell sliding windows on all sides for maximum airflow.",
+        "features": [
+          "Vaulted nipa ceiling",
+          "Capiz shell sliding windows on 3 walls",
+          "Woven rattan light fixtures",
+          "Built-in bamboo shelf (aparador)"
+        ]
+      },
+      {
+        "name": "Kitchen (Kusina)",
+        "area_sqm": 12,
+        "dimensions": "4m x 3m",
+        "location": "Rear-left",
+        "description": "Semi-open kitchen positioned at the back of the house per Bahay Kubo tradition, with a pass-through window to the rear garden. Modern appliances integrated into bamboo cabinetry.",
+        "features": [
+          "Bamboo and hardwood cabinetry",
+          "Stone countertop",
+          "Pass-through rear window",
+          "Open shelving with woven basket storage"
+        ]
+      },
+      {
+        "name": "Bedroom 1 (Master - Silid Tulugan)",
+        "area_sqm": 16,
+        "dimensions": "4m x 4m",
+        "location": "Right side, front",
+        "description": "Primary bedroom with woven bamboo accent wall, capiz shell windows with wooden shutters for privacy, and a built-in bamboo wardrobe.",
+        "features": [
+          "Capiz shell windows with hardwood shutters",
+          "Built-in bamboo wardrobe",
+          "Woven abaca rug",
+          "Mosquito net ceiling hook"
+        ]
+      },
+      {
+        "name": "Bedroom 2 (Silid Tulugan)",
+        "area_sqm": 12,
+        "dimensions": "4m x 3m",
+        "location": "Right side, rear",
+        "description": "Second bedroom with similar Bukito detailing. Slightly smaller but with the same natural ventilation and material palette.",
+        "features": [
+          "Capiz shell windows with hardwood shutters",
+          "Built-in bamboo shelving",
+          "Woven abaca rug",
+          "Mosquito net ceiling hook"
+        ]
+      },
+      {
+        "name": "Bathroom (Banyo)",
+        "area_sqm": 6,
+        "dimensions": "3m x 2m",
+        "location": "Rear-center",
+        "description": "Modern bathroom with river stone flooring, rainwater shower, and natural ventilation via high bamboo lattice panel.",
+        "features": [
+          "River stone floor",
+          "Bamboo lattice ventilation panel",
+          "Rainwater-style shower head",
+          "Hardwood vanity with stone basin"
+        ]
+      },
+      {
+        "name": "Under-house Storage (Silong)",
+        "area_sqm": 85,
+        "dimensions": "Full footprint, 1.5m clearance",
+        "location": "Ground level beneath raised floor",
+        "description": "Traditional Bahay Kubo under-house space created by the stilts. Used for storage, livestock area, or shaded gathering space. Concrete pad with drainage.",
+        "features": [
+          "Concrete pad flooring",
+          "Open sides for ventilation",
+          "Tool and equipment storage",
+          "Shaded outdoor seating area"
+        ]
+      }
+    ],
+    "circulation": "Central hallway connecting sala to bedrooms and bathroom, with the kitchen accessed directly from the sala."
+  },
+  "floor_plan_ascii": [
+    "                   NORTH",
+    "        ┌─────────────────────────┐",
+    "        │      KITCHEN (Kusina)   │  BEDROOM 2  │",
+    "        │        4m x 3m          │   4m x 3m   │",
+    "        │                         │              │",
+    "        ├────────────┬────────────┤──────────────┤",
+    "        │            │  BATHROOM  │              │",
+    "        │            │  3m x 2m   │              │",
+    "        │   SALA     │            │  BEDROOM 1   │",
+    "        │  (Living   ├────────────┤  (Master)    │",
+    "        │  & Dining) │  Hallway   │   4m x 4m   │",
+    "        │   5m x 5m  │            │              │",
+    "        │            │            │              │",
+    "        ├────────────┴────────────┴──────────────┤",
+    "        │         COVERED PORCH (Batalan)         │",
+    "        │             8.5m x 1.2m                 │",
+    "        └─────────────────────────────────────────┘",
+    "                   SOUTH (Front Entry)",
+    "",
+    "        ════════════════════════════════════════════",
+    "        Ground Level: SILONG (Under-house storage)",
+    "        1.5m clearance on concrete stilts",
+    "        ════════════════════════════════════════════"
+  ],
+  "design_features": {
+    "ventilation": {
+      "strategy": "Passive cross-ventilation",
+      "details": "Capiz shell sliding windows on all exterior walls, bamboo lattice panels above interior walls, high peaked roof creates stack effect drawing hot air upward and out through ridge vents."
+    },
+    "roof": {
+      "type": "Steep gable (45-degree pitch)",
+      "material": "Layered nipa palm thatch over waterproof membrane",
+      "overhang_m": 1.0,
+      "details": "Deep eaves protect walls from rain and provide shade. Ridge vent allows hot air to escape."
+    },
+    "stairs": {
+      "type": "Single-flight hardwood staircase",
+      "width_m": 1.2,
+      "location": "Front center, leading to porch",
+      "details": "Traditional wide steps with bamboo railings, removable for security (historic feature)."
+    },
+    "sustainability": {
+      "materials": "95% locally sourced and renewable (bamboo, nipa, hardwood)",
+      "energy": "Passive cooling eliminates need for air conditioning in most conditions",
+      "water": "Roof rainwater collection into ground-level cistern",
+      "waste": "Composting toilet option available"
+    }
+  },
+  "structural_notes": {
+    "seismic_resilience": "Lightweight bamboo frame with flexible joints absorbs earthquake forces, following centuries-old Filipino building wisdom.",
+    "typhoon_resistance": "Steep roof pitch and deep eaves reduce wind uplift. Flexible bamboo frame sways rather than snaps. Nipa thatch secured with bamboo battens and rope lashing.",
+    "flood_protection": "1.5m elevation on stilts keeps living space above typical flood levels.",
+    "termite_protection": "Concrete stilts with metal caps prevent ground-to-wood termite access. Treated bamboo and hardwood throughout."
+  },
+  "estimated_costs": {
+    "currency": "PHP",
+    "structural_frame": 180000,
+    "roofing": 85000,
+    "walls_and_windows": 120000,
+    "flooring": 65000,
+    "kitchen_and_bathroom": 150000,
+    "electrical_and_plumbing": 95000,
+    "stairs_and_porch": 45000,
+    "total_estimate": 740000,
+    "note": "Approximately PHP 740,000 (~USD 13,200). Costs vary by region and material availability."
+  }
+}
