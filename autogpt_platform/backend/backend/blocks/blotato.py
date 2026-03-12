@@ -139,7 +139,7 @@ class UploadBlotatorMediaBlock(Block):
         media_id: str = SchemaField(
             description="The Blotato media ID for use in posts"
         )
-        media_url: str = SchemaField(
+        hosted_url: str = SchemaField(
             description="The hosted URL of the uploaded media"
         )
         error: str = SchemaField(
@@ -159,7 +159,7 @@ class UploadBlotatorMediaBlock(Block):
             },
             test_output=[
                 ("media_id", "media_xyz789"),
-                ("media_url", "https://cdn.blotato.com/media/xyz789.png"),
+                ("hosted_url", "https://cdn.blotato.com/media/xyz789.png"),
             ],
             test_mock={
                 "upload_media": lambda *args, **kwargs: {
@@ -185,7 +185,7 @@ class UploadBlotatorMediaBlock(Block):
                 input_data.media_url,
             )
             yield "media_id", result.get("id", "")
-            yield "media_url", result.get("url", "")
+            yield "hosted_url", result.get("url", "")
         except requests.RequestException as e:
             yield "error", f"Network error uploading media to Blotato: {str(e)}"
         except Exception as e:
